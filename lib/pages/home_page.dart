@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:instagram/controller/controller.dart';
 import 'package:instagram/pages/discorver.dart';
 import 'package:instagram/pages/main_page.dart';
+import 'package:instagram/pages/profile_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -53,6 +54,8 @@ class _HomePageState extends State<HomePage> {
         return const MainPage();
       case 1:
         return const DiscoverPage();
+      case 2:
+        return ProfilePage();
 
       default:
     }
